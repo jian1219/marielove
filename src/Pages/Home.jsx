@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
   return (
     <div>
-      Home
+      <h1 className='d-flex justify-content-center align-items-center vh-100'>I LOVE YOU kiss ko b</h1>
     </div>
   )
 }
