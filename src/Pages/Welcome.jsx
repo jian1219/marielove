@@ -10,11 +10,11 @@ function Welcome() {
   return (
     <div>
         <div className='content d-flex justify-content-center align-items-center vh-100'>
-            <div>
+            <div className='background-count'>
                 <h1 className='text-center'>HI LOVE</h1>
 
                 <div className='d-flex justify-content-center align-items-center'>
-                    <button onClick={() => navigate('/home')}>
+                    <button className='welcome-button' onClick={() => navigate('/home')}>
                         Continue
                     </button>
                 </div>
